@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Email Subscribe</title>
-    
+
 
   </head>
-  <body class="">
-    <div class="flex items-center justify-center  gap-2 bg-slate-700 h-screen">
 
-    <div class="bg-zinc-700 p-2 mx-6 rounded-2xl">
-    <div class="flex flex-col md:flex-row rounded-lg gap-4 ">
-      <div>
-        <img class="w-20" src="./images/image.jpg" alt="">
-      </div>
-      <div>
-        <div class="text-xl text-white text-mono ">
-          Get Diet And And business Tips On Email
-        </div>
-        <div>
-          Eat Better And Exercise Better .Signup for the diets 
-        </div>
-        <div>
-          <div>
-          <input type="search" name="Search" placeholder="Enput your email address">
-          </div>
-          <div>
-            <button>Subscribe</button>
+  <body>
+
+
+        <!-- Bckground Container -->
+
+        <div class="flex items-center justify-center h-screen bg-zinc-700">
+          <!-- Card -->
+
+          <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+
+            <!-- Flex Container -->
+
+            <div class="flex flex-col md:flex-row rounded-l-xl">
+              <!-- image -->
+              <img src="images/image.jpg" alt="" class="object-fit rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 duration-200 hover:rounded-xl">
+
+
+              <!-- Content -->
+
+              <div class="p-6 md:p-12">
+                <h2 class="font-serif text-xl font-medium text-center text-white md:text-left">
+                  Get Dieat And Fitness Tip On Your Inbox
+                </h2>
+
+                <p class="max-w-xs font-serif my-4 leading-5 tracking-wide text-center text-white md:text-left">
+                  Eat Better and exerccise better.Signup for the Diet & Fitness 
+                  newsletter.
+                </p>
+
+                <div class="flex flex-col md:flex-row mt-5 space-y-4 md:space-x-3 md:space-y-0">
+                  
+                  <input type="email" placeholder="type your mail address here" class="py-2 md:py-1 bg-zinc-800  px-2 md:px-8 border border-zinc-600 placeholder:text-xs placeholder:text-center rounded-lg focus:border-2 focus:border-sky-200 text-white">
+
+                  <button class="bg-green-500 py-2 my-2  text-white rounded-lg font-serif font-medium text-lg  md:px-8">Sign Up</button>
+
+
+                </div>
+
+              </div>
+
+
+
+
+            </div>
+
           </div>
 
+
+
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+
+
   </body>
+
 </html>
